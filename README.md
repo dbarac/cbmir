@@ -1,7 +1,7 @@
 # CBMIR (Content-based medical image retrieval)
 Image similarity search for radiology images with BoVW (Bag-of-Visual-Words), HOG and CNN-extracted descriptors.
 
-The system and the retrieval methods are described in the [paper](./cbmir-paper.pdf).
+The system and the retrieval methods are described in the [paper](https://raw.githubusercontent.com/dbarac/cbmir/main/cbmir-paper.pdf?token=AINDYDCPXH53KFWRFFQPBDDBHJWIE).
 
 ## Steps for reproducing results from the paper
 1. Place image data arrays (`images_matrix_single.npy` and `test_images_matrix_single.npy`, both should be
@@ -58,7 +58,7 @@ imgs = make_image_grid(imgs, n_per_row=k+1)
 cv2.imwrite("retrieved.png", np.transpose(imgs, (1, 2, 0)))
 ```
 Output:
-![retrieval-results](./example-result.png)
+![retrieval-results](./data/example-result.png)
 
 ## Used packages
 * numpy
