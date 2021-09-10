@@ -1,1 +1,1 @@
-directory for storing the numpy image arrays and pandas dataframes with image metadata, etc. 
+directory for storing the numpy image arrays, pandas dataframes with image metadata, etc.
