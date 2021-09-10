@@ -47,13 +47,13 @@ def make_image_grid(imgs, n_per_row):
     return imgs
 
 def annotate_img(img, text):
-	font = cv2.FONT_HERSHEY_SIMPLEX
-	top_left_corner = (10, 30)
-	font_scale = 1
-	font_color = (255, 255, 255)
-	line_type = 2
+    font = cv2.FONT_HERSHEY_SIMPLEX
+    top_left_corner = (10, 30)
+    font_scale = 1
+    font_color = (255, 255, 255)
+    line_type = 2
 
-	cv2.putText(
+    cv2.putText(
         img, text, top_left_corner, font, font_scale, font_color, line_type
     )
 
